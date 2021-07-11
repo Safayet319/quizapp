@@ -82,20 +82,23 @@
     margin: 1rem auto;
     display: flex;
     flex-wrap: wrap;
+    /* max-width: 143%; */
 }
 .quiz__choice {
-    min-width: 300px;
+    /* min-width: 51%; */
     border-radius: 4px;
     display: block;
     background: var(--light-white);
     margin: 0.5rem auto;
-    font-family: sans-serif;
+    /* font-family: sans-serif; */
     color: var(--light-black);
     letter-spacing: 1.2px;
     font-size: 0.86rem;
+    /* max-width: 50%; */
+    width: 333px;
 }
 .quiz__label {
-    padding: 2rem 2rem;
+    padding: 2rem 11px;
     display: flex;
     align-items: center;
 }

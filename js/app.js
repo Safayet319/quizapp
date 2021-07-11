@@ -98,7 +98,7 @@ let listener = ()=>{
         quiz.reset();
         renderAll();
         next.style.display = 'block'
-        choises.style.display = 'block'
+        choises.style.display = 'flex'
 
 
     })
